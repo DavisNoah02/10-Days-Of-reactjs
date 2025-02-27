@@ -1,7 +1,7 @@
 # 10-Days-Of-reactjs
 Welcome to the 10 Days of React Practice project! 
 
-This repository contains a series of challenges and projects designed to help you improve your React skills over the course of 10 days.
+This repository contains a series of challenges and projects designed to help you improve your React skills over 10 days.
 
 
 ## Table of Contents
