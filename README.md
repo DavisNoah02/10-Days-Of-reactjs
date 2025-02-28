@@ -87,7 +87,7 @@ A simple, functional to-do list application built with React. This project demon
 
 2. Navigate to the project directory:
 
-    ```cd Day1-To-Do-List```
+    ```cd Day2-To-Do-List```
 
 3. Install dependencies:
 
@@ -105,9 +105,47 @@ Open your browser and navigate to ``http://localhost:3000``
 - Click "Delete" to remove a task.
 - Refresh the page—tasks persist via localStorage.
 
+--------------------------------------------------------------------------
 
 
+## Day 3: Implement a timer for productivity cycles (25-min work, 5-min break).
+A simple and effective Pomodoro timer application built with React to help boost your productivity through timed work sessions and breaks.
 
+![alt text](image-2.png)
+- video
+<video controls src="20250228-1544-40.2598278.mp4" title="Title"></video>
+
+### Table of Contents
+- [PomoFeatures](#pomofeatures)
+- [PomoInstallation](#pomoinstallation)
+- [PomoUsage](#pomoUsage)
+
+
+## PomoFeatures
+- 25-minute work sessions followed by 5-minute breaks
+- Clean, intuitive user interface with visual mode indicators
+- Start, pause, and reset functionality
+- Automatic transition between work and break phases
+- Audio notification when a session ends
+- Tracks completed pomodoro cycles
+
+
+## PomoInstallation
+1. Clone the repository:
+
+   ````git clone https://github.com/DavisNoah02/10-Days-Of-reactjs.git````
+
+2. Navigate to the project directory:
+
+    ```cd Day3-Pomo-Timer```
+
+3. Install dependencies:
+
+    ```npm install```
+
+4. Start the development server:
+
+    ```npm run  dev```
 
 
 
@@ -119,3 +157,14 @@ This challenge is provided by:
 For questions or feedback, please reach out to:
 - Email: m.davenoa@gmail.com
 - GitHub: [_noa.dave_](https://github.com/DavisNoah02)
+
+# Want to Contribute.
+```Contributions are welcome! Please feel free to submit a Pull Request.
+
+- Fork the repository
+- Create your feature branch (git checkout -b feature/amazing-feature)
+- Commit your changes (git commit -m 'Add some amazing feature')
+- Push to the branch (git push origin feature/amazing-feature)
+- Open a Pull Request```
+
+
