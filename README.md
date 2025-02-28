@@ -21,7 +21,7 @@ This repository contains a series of challenges and projects designed to help yo
 ### Table of Contents
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#Usage)
+- [Usage](#usage)
 
 
 ## Features
@@ -37,7 +37,7 @@ This repository contains a series of challenges and projects designed to help yo
 
 2. Navigate to the project directory:
 
-    ```cd Day1-Challange ```
+    ```cd Day1-Dashboard ```
 
 3. Install dependencies:
 
@@ -47,14 +47,63 @@ This repository contains a series of challenges and projects designed to help yo
 
 4. Start the development server:
 
-    ```npm start```
+    ```npm run dev```
 
-## Usage
+##  Usage
 Open your browser and navigate to ``http://localhost:3000`` to view the dashboard.
 
+--------------------------------------------------------------------------
 
 ## Day 2: Build a to-do list where users can add, check off, and delete tasks.
+![alt text](image.png)
 
+### Table of Contents
+- [Overview](#overview)
+- [Techstack](#techstack)
+- [TodoFeatures](#todofeatures)
+- [TodoInstallation](#todoinstallation)
+- [TodoUsage](#todoUsage)
+
+
+## Overview
+A simple, functional to-do list application built with React. This project demonstrates core React concepts like state management with useState, side effects with useEffect, and data persistence using localStorage. It’s designed to be lightweight, modular, and easily extensible for additional features.
+
+## Techstack 
+- React: Frontend library for building the UI.
+- Vite: Build tool for fast development and optimized production builds.
+- LocalStorage: Browser API for task persistence.
+- CSS: Minimal styling (inline and optional global CSS).
+
+## TodoFeatures
+-  Add Tasks: Input and append new tasks to the list.
+- Check Off Tasks: Toggle tasks as completed with a checkbox.
+- Delete Tasks: Remove tasks individually.
+- Persistence: Tasks are saved to localStorage and persist across page  refreshes.
+
+## TodoInstallation
+1. Clone the repository:
+
+   ````git clone https://github.com/DavisNoah02/10-Days-Of-reactjs.git````
+
+2. Navigate to the project directory:
+
+    ```cd Day1-To-Do-List```
+
+3. Install dependencies:
+
+    ```npm install```
+
+4. Start the development server:
+
+    ```npm run  dev```
+
+## TodoUsage
+Open your browser and navigate to ``http://localhost:3000`` 
+
+- Type a task in the input field and click "Add" (or press Enter).
+- Check the box next to a task to mark it as completed (strikethrough applied).
+- Click "Delete" to remove a task.
+- Refresh the page—tasks persist via localStorage.
 
 
 
