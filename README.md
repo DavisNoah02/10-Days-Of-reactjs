@@ -17,7 +17,7 @@ This repository contains a series of challenges and projects designed to help yo
 -------------------------------------
 
 ## Day 1: Setting Up and Creating a Dashboard
-![alt text](image.png)
+![alt text](image-1.png)
 ### Table of Contents
 - [Features](#features)
 - [Installation](#installation)
