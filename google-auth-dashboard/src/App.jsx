@@ -1,13 +1,24 @@
-
-import './App.css'
+import React, { useContext } from 'react';
+import { AuthProvider, AuthContext } from './context/AuthContext';
+import Login from './components/login';
+import Dashboard from './components/Dashboard';
 
 function App() {
-
   return (
-    <>
-<p>welcome to Google Authentication</p>
-    </>
-  )
+    <AuthProvider>
+      <AppContent />
+    </AuthProvider>
+  );
 }
 
-export default App
+function AppContent() {
+  const { user } = useContext(AuthContext);
+
+  return (
+    <div className="app">
+      {user ? < Login/> : <Dashboard />}
+    </div>
+  );
+}
+
+export default App;
