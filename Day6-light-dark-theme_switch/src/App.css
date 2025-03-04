@@ -1,0 +1,23 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-toggle {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+/* Additional themed elements */
+.card {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
