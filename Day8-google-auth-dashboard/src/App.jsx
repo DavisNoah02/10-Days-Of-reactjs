@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { AuthProvider, AuthContext } from './context/AuthContext';
 import Login from './components/login';
 import Dashboard from './components/Dashboard';
+import './App.css';
 
 function App() {
   return (
