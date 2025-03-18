@@ -148,6 +148,138 @@ A simple and effective Pomodoro timer application built with React to help boost
     ```npm run  dev```
 
 
+## Day 4: fetch real-time weather using an API (e.g., OpenWeather).
+A modern, responsive React application that displays real-time weather information using the OpenWeather API.
+
+![alt text](image-3.png)
+Features
+
+## OpenWeather Features
+- Real-time Weather Data: Fetches current weather conditions from OpenWeather API
+- Location-based Weather: Gets weather for the user's current location (with permission)
+- Search Functionality: Look up weather in any city around the world
+Responsive Design: Works seamlessly on desktop and mobile devices
+- Detailed Weather Information: Shows temperature, feels-like temperature, humidity, wind speed, and conditions
+
+## Setup Instructions
+### Prerequisites
+
+Node.js (v14.0.0 or later)
+
+NPM or Yarn
+
+OpenWeather API key 
+
+## Installation
+
+1. Clone the repository:
+
+   ````git clone https://github.com/DavisNoah02/10-Days-Of-reactjs.git````
+
+2. Install dependencies:
+    ``npm install``
+
+3. Create a configuration file:
+
+    Copy ``config.example.js`` to ``config.js``
+    Add your OpenWeather API key to ``config.js``
+
+
+4. Start the development server:
+``npm start``
+or
+``yarn start``
+
+5. Open http://localhost:3000 in your browser.
+
+How to Get an OpenWeather API Key
+
+- Go to OpenWeather and sign up for a free account
+- Navigate to the API keys section in your account
+- Generate a new API key or use the default one provided
+- Copy the API key to your config.js file
+
+# Day5- Daily Quote
+
+Welcome to the Daily Quote project! This React application fetches and displays a motivational quote each day. The quote is fetched from an external API and stored in localStorage to ensure that the same quote is displayed throughout the day.
+
+![alt text](image-4.png)
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Tech Stack](#tech-stack)
+- [Components](#components)
+
+
+## Features
+
+- Fetches a new motivational quote from an external API.
+- Stores the quote in localStorage to persist it across page reloads.
+- Displays the quote and author.
+- Provides a button to manually fetch a new quote.
+- Handles loading states and errors gracefully.
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/DavisNoah02/10-Days-Of-reactjs.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Day5-DailyQuote
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+## Tech Stack
+
+- React: Frontend library for building the UI.
+- Fetch API: For making HTTP requests to the quote API.
+- LocalStorage: For persisting the daily quote.
+
+## Components
+
+### `DailyQuote`
+
+The main component that handles fetching and displaying the daily quote.
+
+- **State:**
+  - `quote`: An object containing the quote content and author.
+  - `lastUpdate`: A string representing the last update date.
+  - `loading`: A boolean indicating the loading state.
+
+- **Functions:**
+  - `fetchQuote`: An asynchronous function that fetches a new quote from the API.
+  - `handleReload`: A function that triggers a new quote fetch when the reload button is clicked.
+
+- **Effects:**
+  - `useEffect`: Checks if a new quote is needed on mount and updates localStorage when the quote changes.
+
+## Acknowledgments
+
+This project uses the [Quotable API](https://quotable.io/) for fetching motivational quotes.
+
+
+
+
+<hr/>
+<br>
 
 # Acknowledgment
 This challenge is provided by:
@@ -158,13 +290,19 @@ For questions or feedback, please reach out to:
 - Email: m.davenoa@gmail.com
 - GitHub: [_noa.dave_](https://github.com/DavisNoah02)
 
-# Want to Contribute.
-```Contributions are welcome! Please feel free to submit a Pull Request.
 
-- Fork the repository
-- Create your feature branch (git checkout -b feature/amazing-feature)
-- Commit your changes (git commit -m 'Add some amazing feature')
-- Push to the branch (git push origin feature/amazing-feature)
-- Open a Pull Request```
+
+
+
+## Want To Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
 
 
